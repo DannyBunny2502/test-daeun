@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	@RequestMapping("/")
 	public String index() {
-		return "helloworld!";
+		return "이거슨 제가 daeun local branch에서 수정하는 controller입니다.";
 	}
 }
